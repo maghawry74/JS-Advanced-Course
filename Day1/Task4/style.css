@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo";
+}
+body {
+  padding: 10px;
+}
+body > div > div {
+  margin: 20px 0;
+}
+label {
+  min-width: 20%;
+}
+input {
+  min-width: 30%;
+}
+.input {
+  display: flex;
+  justify-content: flex-start;
+}
+.Save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+}
