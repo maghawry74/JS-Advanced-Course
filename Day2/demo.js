@@ -30,6 +30,7 @@ function Rectangle(_width, _height) {
 }
 // Rectangle.prototype.__proto__ = Shape.prototype
 Object.setPrototypeOf(Rectangle.prototype, Shape.prototype)
+// Rectangle.prototype = Object.create(Shape.prototype)
 Rectangle.prototype.Area = function () {
   return this.height * this.width
 }
@@ -41,3 +42,6 @@ Rectangle.prototype.toString = function () {
     this.width
   } || Area = ${this.Area()} || Premiter = ${this.Perimter()}`
 }
+
+let rect = new Rectangle(5, 6)
+console.log(rect.TestFunction())
