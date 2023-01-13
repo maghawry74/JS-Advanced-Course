@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo";
+}
+button {
+  padding: 0.5rem;
+  color: white;
+  background-color: #0A2647;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+  cursor: pointer;
+  transition: all .5s;
+}
+.tabs {
+  flex-shrink: 0;
+  height: 25vh;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.checked {
+  background-color: #2C74B3;
+  color: white;
+}
+.display {
+  margin-top: 20px;
+  color: rgb(80 137 186);
+  text-align: center;
+}

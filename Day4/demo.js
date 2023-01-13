@@ -1,15 +1,14 @@
 var a = 5
-var b = 6
-var [a, b] = [b, a]
+var b = ((6)[(a, b)] = [b, a])
 console.log(`a : ${a} b: ${b}`)
 
-function minMax(...numbers) {
+function minMax(numbers) {
   let arr = []
   arr.push(Math.max(...numbers))
   arr.push(Math.min(...numbers))
   return arr
 }
-let [Max, Min] = minMax(50, 90, 7, 2, 9, 100, 0, -2)
+let [Max, Min] = minMax([50, 90, 7, 2, 9, 100, 0, -2])
 console.log(`Minimum : ${Min} Max : ${Max}`)
 
 var fruits = ["apple", "strawberry", "banana", "orange", "mango"]
